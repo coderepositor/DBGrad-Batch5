@@ -1,0 +1,80 @@
+<head>
+    <title>HTML Form Elements</title>
+    <style>
+        div{
+            padding: 5px;
+            border: 1px chocolate;
+        }
+    </style>
+</head>
+<body>
+<header>    
+    <marquee bgcolor="blue" direction="right" behavior="alternate">
+        <h2 style="color: white;">HTML Form Controls</h2>
+    </marquee>
+    <center>
+    <img src="controls.jpeg" width="600" height="150"/>
+</center>
+<hr color="red" size="4"/>
+</header>
+<article>
+    <form action="">
+    <div>
+        <div>
+        Username: <input type="text" name="txtuname" required maxlength="10" placeholder="Enter username max 10 characters"/>
+        </div>
+        <div>
+        Password: <input type="password"/>
+        </div>
+        <div>
+        Email: <input type="email"/>
+        </div>
+        <div>
+        Age: <input type="number"/>
+        </div>
+        <div>
+            Gender:
+            <input type="radio" name="gender"> Male 
+            <input type="radio" name="gender"> Female
+        </div>
+        <div>
+            Education:
+            <input type="checkbox" checked> Graduate 
+            <input type="checkbox"> Post-Graduate
+            <input type="checkbox"> Doctorate
+        </div>
+        <div>
+            Address: <textarea cols="30" rows="10"></textarea>
+        </div>
+      
+        <div>
+            Salary Range: 10000<input type="range" start="10000" end="100000">100000
+        </div>
+        <div>
+            City: 
+            <select>
+                <option value="" >Pune</option>
+                <option value="" selected>Mumbai</option>
+                <option value="">Chennai</option>
+                <option value="">Trivendrum</option>
+            </select>
+         </div>
+         <div> 
+            Hobbies   
+            <select multiple>
+                <option value="">Singing</option>
+                <option value="">Travelling</option>
+                <option value="">Playing Cricket</option>
+                <option value="">Theaters</option>
+            </select></div>
+            <div>upload profile photo
+                <input type="file">
+            </div>
+    </div>
+    <div>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </div>
+    </form>
+</article>
+</body>
