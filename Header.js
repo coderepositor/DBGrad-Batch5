@@ -1,7 +1,7 @@
-function Header()
+function Header({title})
 {
     return(
-    <h1>Todo App</h1>
+    <h1>{title}</h1>
 )
 }
 
